@@ -7,8 +7,8 @@ Repository for the audit project at Pink Programming Ethical &amp; Responsible M
 The goal is to scrutinize the transparency, fairness, sustainability and data privacy of the model.
 
 ## Setup
-*3 groups, one for each topic/theme
-*Choose yourself which group to join!
-*Evaluate the model in any way you find suitable
-*If you have time, make suggestions for improvements
-*Present to everyone at [time]!
+* 3 groups, one for each topic/theme
+* Choose yourself which group to join!
+* Evaluate the model in any way you find suitable
+* If you have time, make suggestions for improvements
+* Present to everyone at [time]!
