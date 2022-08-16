@@ -1,2 +1,14 @@
-# ml-audit-project
+# Machine Learning Audit Project
+
 Repository for the audit project at Pink Programming Ethical &amp; Responsible ML Summer Camp 2022.
+
+## Goal
+
+The goal is to scrutinize the transparency, fairness, sustainability and data privacy of the model.
+
+## Setup
+*3 groups, one for each topic/theme
+*Choose yourself which group to join!
+*Evaluate the model in any way you find suitable
+*If you have time, make suggestions for improvements
+*Present to everyone at [time]!
