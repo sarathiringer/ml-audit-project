@@ -23,6 +23,8 @@ def train():
 
     # Train the model
     model.fit(X_train, y_train, batch_size=128, epochs=5, validation_split=0.1)
+    print('Model trained')
 
     # Save the model
     model.save('model/salary_model')
+    print('Model saved')

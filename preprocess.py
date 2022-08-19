@@ -51,5 +51,4 @@ def preprocess():
 
     # Save the preprocessed data
     df.to_csv('data/adult_preprocessed.csv')
-
-    return df
+    print('Data preprocessed and saved')
