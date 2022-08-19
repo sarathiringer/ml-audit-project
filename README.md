@@ -18,9 +18,13 @@ The whole project can be run with `salary_audit_project.py`. Data and model is s
 
 ## Tips
 * To load the model artifact, run:
-`from tensorflow import keras
-model = keras.models.load_model('model/salary_model')`
+```
+from tensorflow import keras
+model = keras.models.load_model('model/salary_model')
+```
 
 * To load the data files from the `data` directory, run:
-`df = pd.read_csv('data/adult.csv')
-preprocessed = pd.read_csv('data/adult_preprocessed.csv')`
+```
+raw = pd.read_csv('data/adult.csv')
+preprocessed = pd.read_csv('data/adult_preprocessed.csv')
+```
