@@ -13,6 +13,9 @@ The goal is to scrutinize the transparency, fairness, sustainability and data pr
 * If you have time, make suggestions for improvements
 * Present to everyone at 12:00!
 
+## Structure of this directory
+The whole project can be run with `salary_audit_project.py`. Data and model is stored under their respective directories. To inspect the preprocessing of the data, check `preprocess.py`. To inspect the model training, check `train.py`.
+
 ## Tips
 * To load the model artifact, run:
 `from tensorflow import keras
