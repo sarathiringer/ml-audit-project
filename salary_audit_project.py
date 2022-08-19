@@ -1,3 +1,6 @@
 from preprocess import preprocess
+from train import train
 
-preprocess()
+if __name__ == "__main__":
+    preprocess()
+    train()
