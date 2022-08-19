@@ -11,4 +11,13 @@ The goal is to scrutinize the transparency, fairness, sustainability and data pr
 * Choose yourself which group to join!
 * Evaluate the model in any way you find suitable
 * If you have time, make suggestions for improvements
-* Present to everyone at [time]!
+* Present to everyone at 12:00!
+
+## Tips
+* To load the model artifact, run:
+`from tensorflow import keras
+model = keras.models.load_model('model/salary_model')`
+
+* To load the data files from the `data` directory, run:
+`df = pd.read_csv('data/adult.csv')
+preprocessed = pd.read_csv('data/adult_preprocessed.csv')`
