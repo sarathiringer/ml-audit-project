@@ -1,9 +1,10 @@
 import pandas as pd
 import numpy as np
 from sklearn.preprocessing import StandardScaler
+import valohai
 
 
-def preprocess():
+def main():
     """
     Load, preprocess and save the data.
     """
@@ -50,5 +51,10 @@ def preprocess():
     df['salary'] = target
 
     # Save the preprocessed data
-    df.to_csv('data/adult_preprocessed.csv')
-    print('Data preprocessed and saved')
+    path = valohai.outputs().path('adult_preprocessed.csv')
+    df.to_csv(path)
+    print('Data preprocessed and uploaded')
+
+
+if __name__ == '__main__':
+    main()
