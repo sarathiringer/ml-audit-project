@@ -1,0 +1,6 @@
+tensorflow
+valohai-utils
+valohai-yaml
+pandas
+numpy 
+sklearn

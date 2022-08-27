@@ -1,0 +1,31 @@
+
+---
+- step:
+    name: preprocess-dataset
+    image: python:3.9
+    command:
+      - pip install numpy valohai-utils pandas sklearn
+      - python ./preprocess.py
+    inputs:
+      - name: dataset
+        default: https://raw.githubusercontent.com/sarathiringer/ml-audit-project/main/data/adult.csv
+
+- step:
+    name: train-model
+    image: tensorflow/tensorflow:2.6.0
+    command:
+      - pip install valohai-utils pandas numpy sklearn
+      - python ./train.py {parameters}
+    parameters:
+      - name: epochs
+        default: 5
+        type: integer
+      - name: batch_size
+        default: 128
+        type: integer
+      - name: validation_split
+        default: 0.1
+        type: float
+    inputs:
+      - name: dataset
+        default: https://raw.githubusercontent.com/sarathiringer/ml-audit-project/main/data/adult_preprocessed.csv
